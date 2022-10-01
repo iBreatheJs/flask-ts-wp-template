@@ -1,0 +1,100 @@
+/* my css for table */
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableBasic td,
+.tableBasic th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+/* TODO: integrate hover and fix color change on opened hidden rows */
+/* 
+.tableBasic tr:hover {
+    background-color: #ddd;
+}
+*/
+
+/* .tableBasic tr {
+    background-color: rgb(255, 0, 0);
+} */
+
+.tableBasic th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aa6d;
+    color: white;
+}
+
+/* inner table */
+.tableInner th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.buy {
+    background-color: #b2ff8b;
+    color: rgb(0, 0, 0);
+}
+
+.sell {
+    background-color: #ff7676;
+    color: rgb(0, 0, 0);
+}
+
+.bluee {
+    background-color: #5911ff;
+    color: rgb(0, 0, 0);
+}
+
+.taxOldAsset {
+    background-color: #c0a4ff;
+    color: rgb(0, 0, 0);
+}
+
+/* filter */
+
+.table-filter-literal {
+    border-style: solid;
+    /* border-color: black; */
+    border-width: 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.table-filter-range {
+    width: fit-content;
+    border-style: solid;
+    /* border-color: black; */
+    border-width: 1px;
+    /* border-radius: 10px; */
+    text-align: center;
+}
+
+.table-filter-search-col {
+    width: fit-content;
+    border-style: solid;
+    /* border-color: black; */
+    border-width: 1px;
+    /* border-radius: 10px; */
+    text-align: center;
+}
+
+.table-filter-val-exclude {
+    border-style: solid;
+    /* border-color: black; */
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgb(255, 176, 176);
+    /* background-color: rgb(195, 255, 195); */
+    text-align: center;
+}

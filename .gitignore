@@ -1,0 +1,14 @@
+.env
+kraken/__pycache__/
+__pycache__/
+static/dist/
+node_modules
+package-lock.json
+concept.drawio
+concept_save.drawio
+doc/.obsidian
+asdf.json
+src/server/static/bundle.js
+src/server/static/bundle.js.map
+src/ts/lib/tstable
+src/server/data/kraken/ledger copy.json

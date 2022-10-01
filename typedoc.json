@@ -1,0 +1,4 @@
+{
+    "entryPoints": ["./ts/table/table.ts"],
+    "out": "docs"
+}

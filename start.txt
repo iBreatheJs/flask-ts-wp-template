@@ -1,0 +1,6 @@
+//webpack
+npx webpack --mode development --watch
+
+// app
+python app.py
+
