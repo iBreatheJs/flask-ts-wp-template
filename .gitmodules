@@ -1,3 +1,10 @@
-[submodule "tstable"]
-path = ./ts/lib/tstable
+# example:
+[submodule "ts/lib/tstable"]
+path = ts/lib/tstable
 url = D:/code/git_server/tstable/tstable
+
+# add submodules to lib folder
+
+# to use submodules:
+# 	git submodule add <url> <path>
+#	git submodule add D:/code/git_server/tstable/tstable src/ts/lib/tstable
